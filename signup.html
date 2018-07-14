@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>Sign Up</title>
+<style>
+.tb
+{
+font-family:calibri;
+font-size:16px;
+font-weight:bold;
+}
+.input
+{
+width:100%;
+padding:5px;
+margin:6px 2px;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+border-style:inset;
+}
+.outer
+{
+background-color:#f2f2f2;
+margin:auto;
+width:25%;
+height:91%;
+padding:20px;
+box-shadow:10px 10px 15px lightgrey;
+}
+#sub:hover
+{
+background-color:lightgreen;
+}
+#sub
+{
+width:100%;
+background-color:#4CAF50;
+color:white;
+padding:14px 20px;
+margin:8px 0;
+border:none;
+border-radius:4px;
+cursor:pointer;
+}
+</style>
+</head>
+<body>
+<h1 align="center";>Signup Page</h1>
+<div class="outer">
+<form>
+<form action="/action_page.php" autocomplete="on">
+<span class="tb">Name</span><br>
+<input type="text" placeholder="First" style="width:48%; border-style:inset; padding:5px;">&nbsp&nbsp<input type="text" placeholder="Last" style="width:48%; border-style:inset; padding:5px;"><br><br>
+<span class="tb">Choose your username</span><br>
+<input class="input" type="text" value=""><br><br>
+<span class="tb">Create a password</span><br>
+<input class="input" type="password" value=""><br><br>
+<span class="tb">Confirm your password</span><br>
+<input class="input" type="password" value=""><br><br>
+<span class="tb">Birthday</span><br>
+<select style="width:90px;padding:5px;">
+<option>January</option>
+<option>February</option>
+<option>March</option>
+<option>April</option>
+<option>May</option>
+<option>June</option>
+<option>July</option>
+<option>August</option>
+<option>September</option>
+<option>October</option>
+<option>November</option>
+<option>December</option>
+</select>
+&nbsp&nbsp
+<input type="text" placeholder="Day" style="width:31%; border-style:inset; padding:5px;">&nbsp&nbsp
+<input type="text" placeholder="Year" style="width:32%; border-style:inset; padding:5px;"><br><br>
+<span class="tb">Gender</span><br>
+<input type="radio" name="gender" value="male" checked>Male</input>
+<input type="radio" name="gender" value="female">Female</input>
+<input type="radio" name="gender" value="other">Other</input><br><br>
+<span class="tb">Mobile phone</span><br>
+<input class="input" type="text" value="+91"><br><br>
+<span class="tb">Your current email address</span><br>
+<input class="input" type="text" value=""><br><br>
+<input id="sub" type="submit" value="Signup">
+</form>
+</div>
+</body>
+</html>
+
+
+
